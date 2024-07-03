@@ -3,12 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Proba</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <input type="text" id="textInput" placeholder="Upiši tekst"> <button onclick="dodajTekst()">Dodaj</button>
+    <input type="text" id="textInput" placeholder="Upiši tekst">
+
+    <select id="importanceSelect">
+        <option value="vazno">Važno</option>
+        <option value="solidno">Solidno</option>
+        <option value="nevazno">Nevažno</option>
+    </select>
+
+    <br><br>
+    <button onclick="dodajTekst()">Dodaj</button>
+    
     <div id="output"></div>
+
+
+
     <script src="index.js"></script>
 </body>
 </html>

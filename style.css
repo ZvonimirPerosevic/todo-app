@@ -1,5 +1,7 @@
+
+  
 body {
-    font-family: Arial, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     background-color: #e8f5e9; 
     color: #10bb18;
     display: flex;
@@ -11,11 +13,13 @@ body {
 }
 
 input {
+    
     padding: 10px;
     border: 2px solid #81c784; 
     border-radius: 5px;
     width: 200px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 button {
@@ -25,7 +29,15 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+}
+
+select {
+    background-color: #4caf50; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 button:hover {
@@ -39,4 +51,10 @@ button:hover {
     border-radius: 5px;
     width: 300px;
     background-color: white;
+    text-align: center;
+}
+
+.text-item:hover {
+    text-decoration: line-through;
+    cursor: pointer;
 }
